@@ -1,4 +1,4 @@
-//map
+// map
 // Given an array of numbers [1, 2, 3, 4], use the map function to create a new array where each number is multiplied by 2.
 // Expected output: [2, 4, 6, 8]
 
@@ -17,7 +17,7 @@ let capFruits = fruits.map(fruit => {
 })
 console.log(capFruits);
 
-//filter
+// filter
 // Given an array of words ["apple", "banana", "cherry"], use the filter function to create a new array containing only words that start with the letter "a".
 // Expected output: ["apple"]
 
@@ -36,7 +36,7 @@ let oldPeople = people.filter(person => {
 })
 console.log(oldPeople);
 
-//forEach
+// forEach
 // Given an array of numbers [1, 2, 3, 4], use the forEach function to console.log each number in the array.
 
 let nums = [1, 2, 3, 4];
@@ -57,7 +57,7 @@ forEachPeople.forEach(person => {
     console.log(`${person.name} is ${person.age} years old.` )
 })
 
-//reduce
+// reduce
 
 // Given an array of objects [{name: "John", age: 20}, {name: "Jane", age: 25}], use the reduce function to calculate the total age of all the people in the array.
 // Expected output: 45
